@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+font-family: 'Artifika', serif;
+font-family: 'Montserrat', sans-serif;
+
+
+.explore_more button {
+    width: 13rem;
+    transition: all 200ms ease-in-out;
+  }
+  
+  .explore_more button img {
+    transition: all 0.2s ease-in-out;
+    opacity: 0;
+  }
+  
+  .explore_more button:hover {
+    width: calc(6.25rem + 8.25rem);
+    background-color: var(--primary-color);
+    color: var(--seconadry-color);
+  }
+  
+  .explore_more button:hover .explore_arrow {
+    opacity: 1;
+  }
+  .work {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  input {
+    color: black;
+  }
+  #make {
+    display: none;
+  }
+  #solid {
+    display: none;
+  }
+  #class {
+    display: none;
+  }
